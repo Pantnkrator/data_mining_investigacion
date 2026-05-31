@@ -1,0 +1,208 @@
+\documentclass[12pt,letterpaper, oneside]{book}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{changepage}
+\usepackage{tgtermes} % times font
+\usepackage[spanish,es-tabla, es-lcroman]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage[document]{ragged2e}
+\usepackage{subfig}
+\usepackage{wasysym}
+\usepackage{lscape}
+\usepackage[colorlinks=true, linkcolor=black,
+citecolor=black, urlcolor=black,hidelinks]{hyperref}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{setspace} %por si el titulo es mas largo y el interlineado
+\usepackage{xcolor} %para darle color a las lineas del titulo.
+\usepackage{lipsum} %crea texto ficticio del texto Lorem Ipsum
+\usepackage[left=4cm,top=4cm,right=2.6cm,,bottom=2.6cm]{geometry}
+\usepackage[justification=centering]{caption}
+\usepackage{svg}
+\usepackage{hyperref}
+\usepackage{adjustbox}
+
+
+
+\captionsetup{belowskip=0pt}
+% \onehalfspacing
+
+\newcommand{\grad}{$^{\circ}$}
+\renewcommand{\baselinestretch}{1.5} %interlineado 1.5
+
+\usepackage{csquotes}
+\usepackage[backend=biber,natbib,url=false,doi=false,style=apa,maxcitenames=5]{biblatex}
+
+% Cuando el idioma es otro "et al." cambia, con este comando se fuerza a si o si usar "et al."
+\DefineBibliographyStrings{spanish}{%
+  andothers = {et\addabbrvspace al\adddot}
+}
+\addbibresource{chapters/biblio.bib}
+
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+\renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+\renewcommand{\chaptername}{}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+
+% SE ELIMINA LA PALABRA "CAPÍTULO" DEL TÍTULO
+\usepackage{titlesec}
+
+% % Capítulos sin la palabra "Capítulo "
+\titleformat{\chapter}
+  {\normalfont\normalsize\bfseries}{\thechapter}{0.5em}{}
+
+% Cambiamos el tamaño de las secciones
+\titleformat{\section}
+  {\normalfont\normalsize\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}
+  {\normalfont\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+
+% SE ELIMINA LA CABECERA DE LAS HOJAS Y LA NUMERACIÓN ES ABAJO
+\usepackage{fancyhdr}
+\fancyhf{}
+\renewcommand\headrulewidth{0pt}
+% \fancyfoot[RO, LE]{\thepage}
+% \fancyfoot[C]{\thepage}
+% SE ENUMERA A LA DERECHA
+\fancyfoot[R]{\thepage}
+% SE REDEFINE EL ESTILO PARA ENUMERAR LAS PÁGINAS DE CAPÍTULO A LA DERECHA
+\pagestyle{fancy}
+\fancypagestyle{plain}{%
+    \renewcommand{\headrulewidth}{0pt}%
+    \fancyhf{}%
+    \fancyfoot[R]{\thepage}%
+}
+
+% \renewcommand{\contentsname}{Índice}
+
+\usepackage[subfigure]{tocloft}
+% \setlength{\cftpartindent}{0em}
+% \setlength{\cftchapindent}{0em}
+\setlength{\cftsecindent}{0em}
+\setlength{\cftsubsecindent}{0em}
+\setlength{\cftsubsubsecindent}{0em}
+% \setlength{\cftsubsubsecindent}{3em}
+
+\usepackage{enumitem}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+% Contar las figuras sin el capítulo
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+
+% Editando el titulo del indice
+\addto\captionsspanish{% Replace "spanish" with the language you use
+  \renewcommand{\contentsname}%
+    {\fontsize{16}{20}\selectfont ÍNDICE}
+}
+
+% quitando espacio del titulo del indice
+\setlength{\cftbeforetoctitleskip}{-1em}
+\setlength{\cftaftertoctitleskip}{1em}
+
+% Quitando el identado en cada parrafo
+\setlength\parindent{0pt}
+
+% Espaciado entre parrafos
+\setlength{\parskip}{0.5em}
+\unaccentedoperators
+
+\begin{document}
+	%FRONTMATTER
+	%---------------------------------------------------
+	\frontmatter %numeros romanos
+	\newgeometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+    \begin{titlepage} %este titlepage sirve para poder realizar el titulo de una pagina, la caratula de un libro y no se enumere esta.
+	\begin{center}
+	    {\fontsize{20}{20}\selectfont \textbf{UNIVERSIDAD MAYOR DE SAN ANDRÉS}}\\
+		{\fontsize{16}{16}\selectfont \textbf{FACULTAD DE CIENCIAS PURAS Y NATURALES\\
+		CARRERA DE INFORMÁTICA}}
+		%\vspace{1mm}
+		
+		% \includegraphics[height=8cm]{images/logo_umsa.png}
+		\includegraphics[scale=0.20]{logo_umsa.png}
+		%\vspace{1mm}
+		
+		{\fontsize{16}{20}\selectfont \textbf{TESIS DE GRADO}}\\
+		%\vspace{2mm}
+		
+        {\fontsize{16}{18}\selectfont \textbf{COMPARACIÓN Y REFINAMIENTO DE ALGORITMOS DE FACTORIZACIÓN DE NÚMEROS ENTEROS}}
+		
+		{\fontsize{12}{12}\selectfont\textbf{Tesis de Grado para obtener el Título de Licenciatura en Informática Mención Ciencias de la Computación}}
+ 		%\vspace{2mm}
+		
+		{\fontsize{16}{16}\selectfont\textbf{POR: ROLANDO TROCHE VENEGAS}}\\
+    	{\fontsize{14}{14}\selectfont\textbf{TUTOR: M.SC. JORGE HUMBERTO TERÁN POMIER}}
+		%\vspace{2mm}
+		 
+		\textbf{LA PAZ - BOLIVIA\\
+		2024}
+	\end{center}
+\end{titlepage}
+\restoregeometry
+    
+	%ÍNDICE O TABLA DE CONTENIDO-------------------
+	\tableofcontents
+	\setcounter{page}{1}
+	
+	%--------------------------------------------------	
+	\mainmatter %numeros arabicos.
+    
+
+    \raggedbottom
+    
+    \thispagestyle{empty}
+    \chapter{INTRODUCCIÓN}
+    \chapter{DIAGNOSTICO Y PLANTEAMIENTO DEL PROBLEMA}
+        \section{PLANTEAMIENTO DEL PROBLEMA}
+    \chapter{OBJETIVO DE LA INVESTIGACIÓN}
+        \section{OBJETIVO GENERAL}
+        \section{OBJETIVO ESPECÍFICOS}
+    \chapter{ANÁLISIS DE LA INFORMACIÓN}
+        \section{PREPARACIÓN DE LOS DATOS}
+        \section{FUENTE DE DATOS}
+        \section{PROCESO DE MODELADO}
+        \section{EVALUACIÓN}
+    \chapter{RESULTADOS}
+    \chapter{CONCLUSIONES}
+    \chapter{BIBLIOGRAFÍA}
+	
+\end{document}
