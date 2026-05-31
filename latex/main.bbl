@@ -1,0 +1,68 @@
+\begin{thebibliography}{}
+
+\bibitem[Breunig et~al., 2000]{breunig2000lof}
+Breunig, M.~M., Kriegel, H.-P., Ng, R.~T., and Sander, J. (2000).
+\newblock {LOF}: Identifying density-based local outliers.
+\newblock In {\em Proceedings of the 2000 ACM SIGMOD International Conference
+  on Management of Data}, pages 93--104. ACM.
+
+\bibitem[Chandola et~al., 2009]{chandola2009anomaly}
+Chandola, V., Banerjee, A., and Kumar, V. (2009).
+\newblock Anomaly detection: A survey.
+\newblock In {\em ACM Computing Surveys}, volume~41, pages 1--58. ACM.
+
+\bibitem[Du et~al., 2017]{du2017deeplog}
+Du, M., Li, F., Zheng, G., and Srikumar, V. (2017).
+\newblock Deeplog: Anomaly detection and diagnosis from system logs through
+  deep learning.
+\newblock In {\em Proceedings of the 2017 ACM SIGSAC Conference on Computer and
+  Communications Security}, pages 1285--1298. ACM.
+
+\bibitem[Fawcett, 2006]{fawcett2006introduction}
+Fawcett, T. (2006).
+\newblock An introduction to {ROC} analysis.
+\newblock {\em Pattern Recognition Letters}, 27(8):861--874.
+
+\bibitem[He et~al., 2016]{he2016experience}
+He, P., Zhu, J., He, S., Li, J., and Lyu, M.~R. (2016).
+\newblock An evaluation study on log parsing and its use in log mining.
+\newblock In {\em 2016 46th Annual IEEE/IFIP International Conference on
+  Dependable Systems and Networks}, pages 654--661. IEEE.
+
+\bibitem[Liu et~al., 2008]{liu2008isolation}
+Liu, F.~T., Ting, K.~M., and Zhou, Z.-H. (2008).
+\newblock Isolation forest.
+\newblock In {\em 2008 Eighth IEEE International Conference on Data Mining},
+  pages 413--422. IEEE.
+
+\bibitem[Liu et~al., 2012]{liu2012isolation}
+Liu, F.~T., Ting, K.~M., and Zhou, Z.-H. (2012).
+\newblock Isolation-based anomaly detection.
+\newblock {\em ACM Transactions on Knowledge Discovery from Data}, 6(1):1--39.
+
+\bibitem[Sch{\"o}lkopf et~al., 2001]{scholkopf2001one}
+Sch{\"o}lkopf, B., Platt, J.~C., Shawe-Taylor, J., Smola, A.~J., and
+  Williamson, R.~C. (2001).
+\newblock Estimating the support of a high-dimensional distribution.
+\newblock {\em Neural Computation}, 13(7):1443--1471.
+
+\bibitem[Tan et~al., 2018]{tan2018data}
+Tan, P.-N., Steinbach, M., Karpatne, A., and Kumar, V. (2018).
+\newblock {\em Introduction to Data Mining}.
+\newblock Pearson Education, 2nd edition.
+
+\bibitem[Xu et~al., 2009]{xu2009detecting}
+Xu, W., Huang, L., Fox, A., Patterson, D., and Jordan, M.~I. (2009).
+\newblock Detecting large-scale system problems by mining console logs.
+\newblock In {\em Proceedings of the ACM SIGOPS 22nd Symposium on Operating
+  Systems Principles}, pages 117--132. ACM.
+
+\bibitem[Zhang et~al., 2019]{zhang2019robust}
+Zhang, X., Xu, Y., Lin, Q., Qiao, B., Zhang, H., Dang, Y., Xie, C., Yang, X.,
+  Cheng, Q., Li, Z., et~al. (2019).
+\newblock Robust log-based anomaly detection on unstable log data.
+\newblock {\em Proceedings of the 27th ACM Joint Meeting on European Software
+  Engineering Conference and Symposium on the Foundations of Software
+  Engineering}, pages 807--817.
+
+\end{thebibliography}

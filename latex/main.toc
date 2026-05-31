@@ -1,0 +1,25 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}INTRODUCCIÓN}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}DIAGNÓSTICO Y PLANTEAMIENTO DEL PROBLEMA}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}PLANTEAMIENTO DEL PROBLEMA}{2}{section.2.1}%
+\contentsline {chapter}{\numberline {3}OBJETIVO DE LA INVESTIGACIÓN}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}OBJETIVO GENERAL}{4}{section.3.1}%
+\contentsline {section}{\numberline {3.2}OBJETIVOS ESPECÍFICOS}{4}{section.3.2}%
+\contentsline {chapter}{\numberline {4}ANÁLISIS DE LA INFORMACIÓN}{5}{chapter.4}%
+\contentsline {section}{\numberline {4.1}FUENTE DE DATOS}{5}{section.4.1}%
+\contentsline {section}{\numberline {4.2}PREPARACIÓN DE LOS DATOS}{7}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Exploración y Análisis Descriptivo}{7}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Preprocesamiento y Selección de Características}{11}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}PROCESO DE MODELADO}{12}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Isolation Forest}{12}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Local Outlier Factor}{13}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}One-Class SVM}{14}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}EVALUACIÓN}{14}{section.4.4}%
+\contentsline {chapter}{\numberline {5}RESULTADOS}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}COMPARACIÓN DE MODELOS}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}CURVAS ROC}{16}{section.5.2}%
+\contentsline {section}{\numberline {5.3}MATRICES DE CONFUSIÓN}{17}{section.5.3}%
+\contentsline {section}{\numberline {5.4}IMPORTANCIA DE VARIABLES}{18}{section.5.4}%
+\contentsline {section}{\numberline {5.5}DETECCIÓN POR SERVICIO}{19}{section.5.5}%
+\contentsline {chapter}{\numberline {6}CONCLUSIONES}{20}{chapter.6}%
+\contentsline {chapter}{\numberline {7}BIBLIOGRAFÍA}{21}{chapter.7}%
