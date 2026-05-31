@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.5)  31 MAY 2026 10:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.5)  31 MAY 2026 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,33 +540,15 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-01-22 L3 programming layer (loader) 
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count319
-\l__pdf_internal_box=\box64
-))
-Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
-)
-Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count320
-\l__lipsum_a_int=\count321
-\l__lipsum_b_int=\count322
-
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count323
-\Gm@cntv=\count324
-\c@Gm@tempcnt=\count325
+\Gm@cnth=\count319
+\Gm@cntv=\count320
+\c@Gm@tempcnt=\count321
 \Gm@bindingoffset=\dimen195
 \Gm@wd@mp=\dimen196
 \Gm@odd@mp=\dimen197
@@ -588,7 +570,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks34
 \XKV@tempa@toks=\toks35
 )
-\XKV@depth=\count326
+\XKV@depth=\count322
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -600,7 +582,7 @@ Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
 (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box65
+\collectedbox=\box64
 )
 \tc@llx=\dimen259
 \tc@lly=\dimen260
@@ -622,13 +604,13 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count327
+\c@checkoddpage=\count323
 LaTeX Info: Redefining \checkoddpage on input line 45.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box66
-\sift@deathcycles=\count328
+\@vwid@box=\box65
+\sift@deathcycles=\count324
 \@vwid@loff=\dimen271
 \@vwid@roff=\dimen272
 ))
@@ -637,11 +619,11 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip79
 \bibsep=\skip80
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count329
+\c@NAT@ctr=\count325
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box67
+\ttl@box=\box66
 \beforetitleunit=\skip81
 \aftertitleunit=\skip82
 \ttl@plus=\dimen273
@@ -713,60 +695,65 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip132
 \enit@outerparindent=\dimen278
 \enit@toks=\toks37
-\enit@inbox=\box68
-\enit@count@id=\count330
-\enitdp@description=\count331
+\enit@inbox=\box67
+\enit@count@id=\count326
+\enitdp@description=\count327
 )
 (/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 12
-0.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 10
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (./main.aux
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count328
+\l__pdf_internal_box=\box68
+)
+(./main.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Info: Redefining \. on input line 120.
-LaTeX Info: Redefining \% on input line 120.
-\c@lstlisting=\count332
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Info: Redefining \. on input line 105.
+LaTeX Info: Redefining \% on input line 105.
+\c@lstlisting=\count329
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count333
+\scratchcounter=\count330
 \scratchdimen=\dimen279
 \scratchbox=\box69
-\nofMPsegments=\count334
-\nofMParguments=\count335
+\nofMPsegments=\count331
+\nofMParguments=\count332
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count336
+\MPscratchCnt=\count333
 \MPscratchDim=\dimen280
-\MPnumerator=\count337
-\makeMPintoPDFobject=\count338
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
 \everyMPtoPDFconversion=\toks39
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -777,13 +764,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package ragged2e Info: ABD: executing \RaggedRight on input line 120.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 105.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 120.
+Package hyperref Info: Link coloring OFF on input line 105.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -856,12 +843,52 @@ Package hyperref Info: Link coloring OFF on input line 120.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo_umsa.png, id=100, 803.0pt x 1427.3325pt>
+<logo_umsa.png, id=84, 803.0pt x 1427.3325pt>
 File: logo_umsa.png Graphic file (type png)
 <use logo_umsa.png>
-Package pdftex.def Info: logo_umsa.png  used on input line 131.
-(pdftex.def)             Requested size: 160.59715pt x 285.46144pt.
-[1
+Package pdftex.def Info: logo_umsa.png  used on input line 117.
+(pdftex.def)             Requested size: 136.5082pt x 242.64331pt.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 126.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 126.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 126.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 126.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+26.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 12
+6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+) [1
 
 
 
@@ -870,48 +897,7 @@ Package pdftex.def Info: logo_umsa.png  used on input line 131.
 st/fonts/enc/dvips/base/8r.enc} <./logo_umsa.png>] (./main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 2.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
-File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-))
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -920,114 +906,214 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 	\mainmatter
-                   [1
+l.142     \mainmatter
+                      [1
 
-] [2]
+]
 Cap\'{\i }tulo 1.
 [1
 
 ]
 Cap\'{\i }tulo 2.
 [2]
-Cap\'{\i }tulo 3.
-[3] [4]
-Cap\'{\i }tulo 4.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-31.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+24.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [5] [6{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [7]
+) [3{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+Cap\'{\i }tulo 3.
+[4]
+Cap\'{\i }tulo 4.
+
+Overfull \hbox (11.00731pt too wide) in paragraph at lines 329--330
+[]|\T1/ptm/b/n/12 Transformación|  
+ []
+
+
+Overfull \hbox (26.14142pt too wide) in alignment at lines 326--331
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (11.00731pt too wide) in paragraph at lines 334--335
+[]|\T1/ptm/b/n/12 Transformación|  
+ []
+
+
+Overfull \hbox (26.14142pt too wide) in alignment at lines 331--336
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.10042pt too wide) in paragraph at lines 337--337
+[]|\T1/ptm/m/n/12 Fecha/hora|  
+ []
+
+
+Overfull \hbox (5.5112pt too wide) in paragraph at lines 363--364
+[]|\T1/ptm/m/n/12 Estandarización 
+ []
+
+
+Overfull \hbox (5.5112pt too wide) in paragraph at lines 366--367
+[]|\T1/ptm/m/n/12 Estandarización 
+ []
+
+
+Overfull \hbox (15.3493pt too wide) in paragraph at lines 367--367
+[]|\T1/cmtt/m/n/12 api_response_time_ms|  
+ []
+
+
+Overfull \hbox (5.5112pt too wide) in paragraph at lines 369--370
+[]|\T1/ptm/m/n/12 Estandarización 
+ []
+
+
+Overfull \hbox (5.5112pt too wide) in paragraph at lines 372--373
+[]|\T1/ptm/m/n/12 Estandarización 
+ []
+
+
+Overfull \hbox (5.5112pt too wide) in paragraph at lines 375--376
+[]|\T1/ptm/m/n/12 Estandarización 
+ []
+
+
+Overfull \hbox (5.5112pt too wide) in paragraph at lines 378--379
+[]|\T1/ptm/m/n/12 Estandarización 
+ []
+
+
+Overfull \hbox (5.5112pt too wide) in paragraph at lines 381--382
+[]|\T1/ptm/m/n/12 Estandarización 
+ []
+
+
+Overfull \hbox (5.5112pt too wide) in paragraph at lines 384--385
+[]|\T1/ptm/m/n/12 Estandarización 
+ []
+
+
+Overfull \hbox (4.6482pt too wide) in paragraph at lines 385--385
+[]|\T1/ptm/m/n/12 reintentos|  
+ []
+
+
+Overfull \hbox (5.5112pt too wide) in paragraph at lines 387--388
+[]|\T1/ptm/m/n/12 Estandarización 
+ []
+
+
+Overfull \hbox (5.5112pt too wide) in paragraph at lines 390--391
+[]|\T1/ptm/m/n/12 Estandarización 
+ []
+
+
+Overfull \hbox (26.14142pt too wide) in alignment at lines 336--394
+ [] [] [] [] [] 
+ []
+
+[5] [6] [7]
+Overfull \hbox (2.46309pt too wide) in paragraph at lines 419--422
+[]\T1/ptm/m/n/12 El aná-li-sis es-ta-dís-ti-co des-crip-ti-vo de las prin-ci-pa
+-les va-ria-bles en el ser-vi-cio \T1/ptm/m/it/12 report-service 
+ []
+
+[8] [9] [10]
+Overfull \hbox (34.19061pt too wide) in paragraph at lines 568--572
+[]\T1/ptm/b/n/12 F1-Score\T1/ptm/m/n/12 : me-dia ar-mó-ni-ca en-tre pre-ci-sión
+ y re-call. $[] \OT1/ztmcm/m/n/12 = 2 \OMS/ztmcm/m/n/12 ^^A [] ^^A []\OML/ztmcm
+/m/it/12 =\OT1/ztmcm/m/n/12 ([] + 
+ []
+
+Cap\'{\i }tulo 5.
 <figures/fig_anomaly_distribution.pdf, id=203, 856.6994pt x 282.25304pt>
 File: figures/fig_anomaly_distribution.pdf Graphic file (type pdf)
 <use figures/fig_anomaly_distribution.pdf>
 Package pdftex.def Info: figures/fig_anomaly_distribution.pdf  used on input li
-ne 416.
+ne 592.
 (pdftex.def)             Requested size: 426.50665pt x 140.5189pt.
-<figures/fig_response_time_boxplot.pdf, id=205, 932.20898pt x 355.28925pt>
+[11]
+<figures/fig_response_time_boxplot.pdf, id=211, 932.20898pt x 355.28925pt>
 File: figures/fig_response_time_boxplot.pdf Graphic file (type pdf)
 <use figures/fig_response_time_boxplot.pdf>
 Package pdftex.def Info: figures/fig_response_time_boxplot.pdf  used on input l
-ine 434.
+ine 609.
 (pdftex.def)             Requested size: 426.50665pt x 162.55136pt.
- [8 <./figures/fig_anomaly_distribution.pdf>]
-<figures/fig_correlation_heatmap.pdf, id=260, 621.26176pt x 498.24646pt>
+ [12 <./figures/fig_anomaly_distribution.pdf> <./figures/fig_response_time_boxp
+lot.pdf>]
+<figures/fig_correlation_heatmap.pdf, id=307, 619.4519pt x 498.54445pt>
 File: figures/fig_correlation_heatmap.pdf Graphic file (type pdf)
 <use figures/fig_correlation_heatmap.pdf>
 Package pdftex.def Info: figures/fig_correlation_heatmap.pdf  used on input lin
-e 450.
-(pdftex.def)             Requested size: 362.53325pt x 290.74695pt.
- [9 <./figures/fig_response_time_boxplot.pdf>]
-<figures/fig_temporal_patterns.pdf, id=309, 860.52553pt x 282.87744pt>
+e 623.
+(pdftex.def)             Requested size: 362.53325pt x 291.77284pt.
+<figures/fig_temporal_patterns.pdf, id=309, 860.2627pt x 282.87744pt>
 File: figures/fig_temporal_patterns.pdf Graphic file (type pdf)
 <use figures/fig_temporal_patterns.pdf>
 Package pdftex.def Info: figures/fig_temporal_patterns.pdf  used on input line 
-467.
-(pdftex.def)             Requested size: 426.50665pt x 140.20389pt.
- [10 <./figures/fig_correlation_heatmap.pdf>] [11 <./figures/fig_temporal_patte
-rns.pdf>] [12]
-Overfull \hbox (53.84143pt too wide) in paragraph at lines 558--561
-\T1/ptm/m/n/12 donde $\OML/ztmcm/m/it/12 N[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/
-12 p\OT1/ztmcm/m/n/12 )$ \T1/ptm/m/n/12 es el con-jun-to de $\OML/ztmcm/m/it/12
- k$ \T1/ptm/m/n/12 ve-ci-nos más cer-ca-nos y $[][]\OT1/ztmcm/m/n/12 (\OML/ztmc
-m/m/it/12 p; o\OT1/ztmcm/m/n/12 ) = []\OMS/ztmcm/m/n/12 f\OML/ztmcm/m/it/12 k[]
-\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 o\OT1/ztmcm/m/n/12 )\OML/ztmcm/m/it/12 ; 
-d\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 p; o\OT1/ztmcm/m/n/12 )\OMS/ztmcm/m/n/12
- g$\T1/ptm/m/n/12 .  
- []
-
-
-Overfull \hbox (9.91084pt too wide) in paragraph at lines 567--570
-\T1/ptm/m/n/12 mo-de-lo en-tre-na-do so-bre nue-vas ins-tan-cias. Los hi-per-pa
--rá-me-tros fue-ron: \T1/cmtt/m/n/12 n_neighbors=30\T1/ptm/m/n/12 , 
- []
-
-[13] [14]
-Cap\'{\i }tulo 5.
-<figures/fig_metrics_comparison.pdf, id=472, 643.58252pt x 354.1186pt>
-File: figures/fig_metrics_comparison.pdf Graphic file (type pdf)
-<use figures/fig_metrics_comparison.pdf>
-Package pdftex.def Info: figures/fig_metrics_comparison.pdf  used on input line
- 658.
-(pdftex.def)             Requested size: 383.85338pt x 211.21379pt.
-[15]
-<figures/fig_roc_curves.pdf, id=480, 462.82034pt x 355.14745pt>
-File: figures/fig_roc_curves.pdf Graphic file (type pdf)
-<use figures/fig_roc_curves.pdf>
-Package pdftex.def Info: figures/fig_roc_curves.pdf  used on input line 675.
-(pdftex.def)             Requested size: 319.87999pt x 245.46384pt.
- [16 <./figures/fig_metrics_comparison.pdf>]
-<figures/fig_confusion_matrices.pdf, id=535, 933.39088pt x 296.69218pt>
-File: figures/fig_confusion_matrices.pdf Graphic file (type pdf)
-<use figures/fig_confusion_matrices.pdf>
-Package pdftex.def Info: figures/fig_confusion_matrices.pdf  used on input line
- 687.
-(pdftex.def)             Requested size: 426.50665pt x 135.5701pt.
- [17 <./figures/fig_roc_curves.pdf> <./figures/fig_confusion_matrices.pdf>]
-<figures/fig_feature_importance.pdf, id=642, 570.23132pt x 354.87518pt>
+634.
+(pdftex.def)             Requested size: 426.50665pt x 140.24706pt.
+ [13 <./figures/fig_correlation_heatmap.pdf>]
+<figures/fig_contamination_tuning.pdf, id=374, 498.45473pt x 282.87744pt>
+File: figures/fig_contamination_tuning.pdf Graphic file (type pdf)
+<use figures/fig_contamination_tuning.pdf>
+Package pdftex.def Info: figures/fig_contamination_tuning.pdf  used on input li
+ne 647.
+(pdftex.def)             Requested size: 341.20662pt x 193.64038pt.
+ [14 <./figures/fig_temporal_patterns.pdf> <./figures/fig_contamination_tuning.
+pdf>]
+<figures/fig_roc_curve.pdf, id=475, 426.68533pt x 355.38585pt>
+File: figures/fig_roc_curve.pdf Graphic file (type pdf)
+<use figures/fig_roc_curve.pdf>
+Package pdftex.def Info: figures/fig_roc_curve.pdf  used on input line 691.
+(pdftex.def)             Requested size: 319.87999pt x 266.44112pt.
+ [15]
+<figures/fig_iforest_score_dist.pdf, id=483, 499.1561pt x 282.29025pt>
+File: figures/fig_iforest_score_dist.pdf Graphic file (type pdf)
+<use figures/fig_iforest_score_dist.pdf>
+Package pdftex.def Info: figures/fig_iforest_score_dist.pdf  used on input line
+ 703.
+(pdftex.def)             Requested size: 341.20662pt x 192.97568pt.
+ [16 <./figures/fig_roc_curve.pdf> <./figures/fig_iforest_score_dist.pdf>]
+<figures/fig_confusion_matrix.pdf, id=576, 355.23088pt x 283.16101pt>
+File: figures/fig_confusion_matrix.pdf Graphic file (type pdf)
+<use figures/fig_confusion_matrix.pdf>
+Package pdftex.def Info: figures/fig_confusion_matrix.pdf  used on input line 7
+15.
+(pdftex.def)             Requested size: 255.90659pt x 203.99242pt.
+<figures/fig_feature_importance.pdf, id=578, 570.5999pt x 354.87518pt>
 File: figures/fig_feature_importance.pdf Graphic file (type pdf)
 <use figures/fig_feature_importance.pdf>
 Package pdftex.def Info: figures/fig_feature_importance.pdf  used on input line
- 707.
-(pdftex.def)             Requested size: 362.53325pt x 225.6194pt.
-
-Overfull \hbox (18.31924pt too wide) in paragraph at lines 720--723
+ 727.
+(pdftex.def)             Requested size: 362.53325pt x 225.47319pt.
+ [17 <./figures/fig_confusion_matrix.pdf>]
+Overfull \hbox (18.31924pt too wide) in paragraph at lines 734--736
 []\T1/ptm/b/n/12 Tiempo de res-pues-ta de la API \T1/ptm/m/n/12 (\T1/cmtt/m/n/1
-2 api_response_time_ms\T1/ptm/m/n/12 ): im-por-tan-cia = 0,003299. 
+2 api_response_time_ms\T1/ptm/m/n/12 ): im-por-tan-cia = 0,003212.  
  []
 
 [18 <./figures/fig_feature_importance.pdf>]
-<figures/fig_anomaly_per_service.pdf, id=702, 571.38469pt x 354.59349pt>
+<figures/fig_anomaly_profile.pdf, id=690, 860.66986pt x 354.04144pt>
+File: figures/fig_anomaly_profile.pdf Graphic file (type pdf)
+<use figures/fig_anomaly_profile.pdf>
+Package pdftex.def Info: figures/fig_anomaly_profile.pdf  used on input line 76
+1.
+(pdftex.def)             Requested size: 426.50665pt x 175.44823pt.
+ [19 <./figures/fig_anomaly_profile.pdf>]
+<figures/fig_anomaly_per_service.pdf, id=751, 571.44553pt x 354.59349pt>
 File: figures/fig_anomaly_per_service.pdf Graphic file (type pdf)
 <use figures/fig_anomaly_per_service.pdf>
 Package pdftex.def Info: figures/fig_anomaly_per_service.pdf  used on input lin
-e 745.
-(pdftex.def)             Requested size: 362.53325pt x 224.98581pt.
- [19 <./figures/fig_anomaly_per_service.pdf>]
+e 798.
+(pdftex.def)             Requested size: 362.53325pt x 224.95876pt.
+
 Cap\'{\i }tulo 6.
-[20]
+[20 <./figures/fig_anomaly_per_service.pdf>] [21]
 Cap\'{\i }tulo 7.
-(./main.bbl [21] [22]) [23] (./main.aux
+(./main.bbl [22]) [23] (./main.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -1036,29 +1122,28 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 119A38EC9D75B2BAFDDDA07C7464441B;3940.
+(rerunfilecheck)             Checksum: F97A26668357CC7CBD516013E3A939A4;3661.
  ) 
 Here is how much of TeX's memory you used:
- 19359 strings out of 476120
- 308125 string characters out of 5793658
- 1936975 words of memory out of 5000000
- 40932 multiletter control sequences out of 15000+600000
- 606815 words of font info for 107 fonts, out of 8000000 for 9000
+ 18906 strings out of 476120
+ 297614 string characters out of 5793658
+ 1948975 words of memory out of 5000000
+ 40507 multiletter control sequences out of 15000+600000
+ 612715 words of font info for 109 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 79i,12n,93p,361b,604s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (26 pages, 690293 bytes).
+ 75i,11n,79p,349b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (25 pages, 704118 bytes).
 PDF statistics:
- 846 PDF objects out of 1000 (max. 8388607)
- 399 compressed objects within 4 object streams
- 106 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 879 PDF objects out of 1000 (max. 8388607)
+ 362 compressed objects within 4 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
